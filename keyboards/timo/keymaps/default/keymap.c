@@ -1,4 +1,4 @@
-#include "jimmy_timo.h"
+#include "timo.h"
 
 #define _MAIN 0
 #define _FN 1
