@@ -13,8 +13,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-#ifndef PRIME_O_H
-#define PRIME_O_H
+#ifndef JIMMY_TIMO_H
+#define JIMMY_TIMO_H
 
 #include "quantum.h"
 
