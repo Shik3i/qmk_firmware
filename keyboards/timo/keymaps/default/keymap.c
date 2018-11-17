@@ -4,6 +4,13 @@
 #define _FN 1
 
 #define ____ KC_TRANS
+#define PrevTrack KC_MEDIA_PREV_TRACK
+#define PlayPause KC_MEDIA_PLAY_PAUSE
+#define NextTrack KC_MEDIA_NEXT_TRACK
+#define AudioMute KC_AUDIO_MUTE
+#define VolumeUp KC_AUDIO_VOL_UP
+#define VolumeDown KC_AUDIO_VOL_DOWN
+
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_MAIN] = LAYOUT(
@@ -15,9 +22,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 [_FN] = LAYOUT(
   KC_GRV, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12,  ____,
-  ____, ____, ____, ____, ____, ____, ____, ____, ____, KC_MEDIA_PREV_TRACK, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_NEXT_TRACK,	____,
+  ____, ____, ____, ____, ____, ____, ____, ____, ____, PrevTrack, PlayPause, NextTrack,	____,
   RESET, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,	____, ____, ____,
-  ____, ____, ____, ____, ____ ____, ____, ____, KC_AUDIO_MUTE, ____, ____, ____, KC_AUDIO_VOL_UP, KC_LOCKING_SCROLL,
-  ____, ____, ____, ____, ____, KC_NO, ____, KC_AUDIO_VOL_DOWN, ____
+  ____, ____, ____, ____, ____ ____, ____, ____, AudioMute, ____, ____, ____, VolumeUp, KC_LOCKING_SCROLL,
+  ____, ____, ____, ____, ____, KC_NO, ____, VolumeDown, ____
 )
 };
