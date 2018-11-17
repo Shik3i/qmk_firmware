@@ -3,7 +3,7 @@
 #define _MAIN 0
 #define _FN 1
 
-#define ____ KC_TRANS
+#define ____ KC_TRNS
 #define PrevTrack KC_MEDIA_PREV_TRACK
 #define PlayPause KC_MEDIA_PLAY_PAUSE
 #define NextTrack KC_MEDIA_NEXT_TRACK
