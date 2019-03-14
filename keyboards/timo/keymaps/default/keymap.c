@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_CAPS, ____, ____, ____, ____, ____, ____, ____, ____, PrevTrack, PlayPause, NextTrack,	____, /*13*/
   RESET, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____,	____, ____, KC_PENT, /*14*/
   ____, ____, ____, ____, ____, ____, ____, ____, AudioMute, ____, ____, ____, VolumeUp, KC_LOCKING_SCROLL, /*14*/
-  ____, ____, ____, ____, KC_LGUI, KC_NO, KC_PGUP, VolumeDown, KC_PGDN /*9*/
+  ____, AG_NORM, ____, ____, ____, KC_NO, KC_PGUP, VolumeDown, KC_PGDN /*9*/
 )
 };
 
